@@ -1,7 +1,7 @@
 {
   "name": "ecommerce",
   "type": "module",
-  "version": "1.0.0", 
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "browserify-zlib": "^0.2.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-async-handler": "^1.2.0",

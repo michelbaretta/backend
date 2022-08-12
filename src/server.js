@@ -6,10 +6,12 @@ import userRouter from "./routers/UserRouter.js";
 import dotenv from "dotenv";
 import orderRouter from "./routers/OrderRouter.js";
 import uploadRouter from "./routers/UploadRouter.js";
+import cors from "cors";
 
 dotenv.config();
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
